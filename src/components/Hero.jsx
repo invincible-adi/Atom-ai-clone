@@ -102,11 +102,11 @@ export default function Hero() {
 
                     <filter id="glow">
                         <feGaussianBlur stdDeviation="6" result="coloredBlur" />
-                    <feMerge>
-                        <feMergeNode in="coloredBlur" />
-                        <feMergeNode in="SourceGraphic" />
-                    </feMerge>
-                </filter>
+                        <feMerge>
+                            <feMergeNode in="coloredBlur" />
+                            <feMergeNode in="SourceGraphic" />
+                        </feMerge>
+                    </filter>
                 </defs>
             </motion.svg>
 
@@ -115,32 +115,32 @@ export default function Hero() {
                 <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.15),transparent_70%)] opacity-70"></div>
                 <div className="absolute inset-0 bg-gradient-to-b from-white/10 via-transparent to-transparent opacity-70"></div>
                 <div className="absolute inset-0 bg-gradient-radial from-white/20 via-transparent to-transparent opacity-60"></div>
-        </div>
+            </div>
 
             {/* Content */}
             <div className="relative z-10 flex flex-col items-start text-left pt-[110px] pb-12 pl-12 sm:pl-24 md:pl-32 lg:pl-40 max-w-4xl">
                 <span className="inline-flex items-center px-5 py-2 mb-8 rounded-full bg-black/60 text-white text-base font-medium shadow-lg border border-white/10">
                     Atom AI-Automation Partner
-            </span>
+                </span>
                 <h1 className="font-extrabold text-white text-left leading-[1.05] mb-8 max-w-3xl"
                     style={{
                         fontSize: "clamp(3rem, 7vw, 5rem)",
                         letterSpacing: "-0.02em"
                     }}>
-                Scale Business<br />with Automation
-            </h1>
+                    Scale Business<br />with Automation
+                </h1>
                 <p className="text-gray-300 text-left text-lg sm:text-xl mb-12 max-w-2xl">
-                Manage all your data and workflows in one place. Automate processes, gain insights, and optimize your strategy with AI-powered intelligence.
-            </p>
+                    Manage all your data and workflows in one place. Automate processes, gain insights, and optimize your strategy with AI-powered intelligence.
+                </p>
                 <div className="flex flex-col sm:flex-row gap-4 mb-20">
                     <button className="bg-white text-black font-semibold px-8 py-3.5 rounded-full shadow-lg hover:bg-gray-100 transition text-base sm:text-lg">
-                    Get Started Now
-                </button>
+                        Get Started Now
+                    </button>
                     <button className="bg-transparent border border-white/20 text-white font-semibold px-8 py-3.5 rounded-full shadow-lg hover:bg-white/5 transition text-base sm:text-lg">
-                    View Services
-                </button>
+                        View Services
+                    </button>
+                </div>
             </div>
-        </div>
 
             {/* Centered Marquee Logos at the bottom */}
             <div className="absolute left-1/2 bottom-10 -translate-x-1/2 z-20 w-[90vw] max-w-6xl">
@@ -161,7 +161,7 @@ export default function Hero() {
                         ))}
                     </div>
                     <div className="absolute top-0 flex w-fit animate-marquee2" aria-hidden="true">
-                        {[...logos, ...logos, ...logos, ...logos].map((logo, index) => (
+                        {/* {[...logos, ...logos, ...logos, ...logos].map((logo, index) => (
                             <span
                                 key={`clone-${index}`}
                                 className="inline-block mx-16 text-white/80 text-2xl sm:text-3xl font-semibold tracking-wide"
@@ -173,10 +173,10 @@ export default function Hero() {
                             >
                                 {logo}
                             </span>
-                        ))}
+                        ))} */}
                     </div>
                 </div>
             </div>
-    </section>
-);
+        </section>
+    );
 } 
