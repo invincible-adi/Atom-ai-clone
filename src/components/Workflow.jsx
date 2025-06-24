@@ -120,17 +120,17 @@ const Workflow = () => (
                             {/* Bubble Chart */}
                             <div className="relative w-64 h-48">
                                 {/* SassAI Bubble */}
-                                <div className="absolute top-10 left-24 z-30 w-28 h-28 rounded-full bg-black shadow-lg shadow-[inset_0_4px_8px_rgba(254,254,254,0.8)] border border-white/5 flex flex-col items-center justify-center text-white">
+                                <div className="absolute top-10 left-24 z-30 w-28 h-28 rounded-full bg-black shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1),0_4px_6px_-4px_rgba(0,0,0,0.1),inset_0_4px_8px_rgba(254,254,254)] border border-white/5 flex flex-col items-center justify-center text-white">
                                     <span className="text-xs">SassAI</span>
                                     <span className="text-3xl font-extrabold">90%</span>
                                 </div>
                                 {/* others Bubble */}
-                                <div className="absolute top-12 left-10 z-20 w-20 h-20 rounded-full bg-gradient-to-br from-white/5 to-transparent shadow-lg shadow-[inset_0_4px_8px_rgba(254,254,254,0.8)] border border-white/5 flex flex-col items-center justify-center text-white">
+                                <div className="absolute top-12 left-10 z-20 w-20 h-20 rounded-full bg-gradient-to-br from-white/5 to-transparent shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1),0_4px_6px_-4px_rgba(0,0,0,0.1),inset_0_4px_8px_rgba(254,254,254)] border border-white/5 flex flex-col items-center justify-center text-white">
                                     <span className="text-xs">others</span>
                                     <span className="text-2xl font-extrabold">50%</span>
                                 </div>
                                 {/* 40% Bubble */}
-                                <div className="absolute top-32 left-20 z-20 w-16 h-16 rounded-full bg-gradient-to-br from-white/5 to-transparent shadow-lg shadow-[inset_0_4px_8px_rgba(254,254,254,1)] border border-white/5 flex flex-col items-center justify-center text-white">
+                                <div className="absolute top-32 left-20 z-20 w-16 h-16 rounded-full bg-gradient-to-br from-white/5 to-transparent shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1),0_4px_6px_-4px_rgba(0,0,0,0.1),inset_0_4px_8px_rgba(254,254,254)] border border-white/5 flex flex-col items-center justify-center text-white">
                                     <span className="text-xl font-extrabold">40%</span>
                                 </div>
                             </div>
